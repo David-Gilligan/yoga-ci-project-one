@@ -1,1 +1,14 @@
-h1 {color:blue;font: arial;font-style: italic;}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap')
+
+.l {margin:0;
+    padding:0;
+
+
+.logo {font-family : 'Playfair Display', sans-serif;
+    font-size : 84px;
+    font-weight : 300; }
+
+ul {margin:0;
+     padding:0;
+     border: none;
+    list-style: none;}
