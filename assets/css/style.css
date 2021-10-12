@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap')
-
-.l {margin:0;
-    padding:0;
+/*Font Imports*/
 
 
-.logo {font-family : 'Playfair Display', sans-serif;
-    font-size : 84px;
-    font-weight : 300; }
+/*Navigation & Header Styling*/
+.nav-background {background-color: #4E5454;}
 
-ul {margin:0;
-     padding:0;
-     border: none;
-    list-style: none;}
+/*About Us Styling*/
+.about-background {background-color: #737373;}
+
+/*Importance of Body & Mind Self Improvement Styling*/
+.importance-background {background-color: #C7C1B5;}
+
+/*Yoga Types Styling*/
+.yoga-background {background-color: #E3DFD4;}
+
+/*Additional Information/Contact Us Styling*/
+.form-background {background-color:#ADC5B7;}
+
+/*Footer Styling*/
+.footer {background-color: #C0D4C9;}
