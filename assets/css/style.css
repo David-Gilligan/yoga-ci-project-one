@@ -1,8 +1,42 @@
 /*Font Imports*/
 
+/*Social Media Icon Imports*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*General Styling*/
+
+body {font-family: ;
+      font-size: ;
+      font-weight: ;}
+    
+h1 {color: beige;
+    font-size: xx-large;
+    font-weight: 400;}
+
+h1, h2 {font-family: ;}
+
+.text-left {
+    text-align: left;}
+
+.text-center {
+    text-align: center;}
+
+.text-right {
+    text-align: right;}
 
 /*Navigation & Header Styling*/
+
 .nav-background {background-color: #4E5454;}
+
+.page-header {
+	height: 15vh;
+	background: center 75% / cover no-repeat;}
+
+.vertical-center {
+    position: relative;
+    top: 30%;}
+
+ul {list-style-type: none;}
 
 /*About Us Styling*/
 .about-background {background-color: #737373;}
@@ -17,4 +51,27 @@
 .form-background {background-color:#ADC5B7;}
 
 /*Footer Styling*/
-.footer {background-color: #C0D4C9;}
+.footer-background {background-color: #C0D4C9;}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;}
+  
+.fa:hover {
+    opacity: 0.7;}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+
+.fa-instagram {
+    background: #125688;
+    color: white;}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;}
