@@ -1,32 +1,59 @@
 /*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Roboto&display=swap');
 
 /*Social Media Icon Imports*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*General Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
-body {font-family: ;
-      font-size: ;
-      font-weight: ;}
-    
-h1 {color: beige;
-    font-size: xx-large;
-    font-weight: 400;}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 
-h1, h2 {font-family: ;}
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #C7C1B5;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
 
 .text-left {
-    text-align: left;}
+    text-align: left;
+}
 
 .text-center {
-    text-align: center;}
+    text-align: center;
+}
 
 .text-right {
-    text-align: right;}
+    text-align: right;
+}
 
 /*Navigation & Header Styling*/
 
-.nav-background {background-color: #4E5454;}
+.nav-background {
+    background-color: #4E5454;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/*.topnav {
+    display:inline;
+    position: relative;
+    overflow: hidden;
+    background-color: #4E5454;
+}
 
 .page-header {
 	height: 15vh;
@@ -36,10 +63,13 @@ h1, h2 {font-family: ;}
     position: relative;
     top: 30%;}
 
-ul {list-style-type: none;}
+ul {list-style-type: none;}*/
 
 /*About Us Styling*/
-.about-background {background-color: #737373;}
+.about-background {
+    background-color: #737373;
+    background-size: 800px;
+}
 
 /*Importance of Body & Mind Self Improvement Styling*/
 .importance-background {background-color: #C7C1B5;}
@@ -54,12 +84,13 @@ ul {list-style-type: none;}
 .footer-background {background-color: #C0D4C9;}
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    width: 50px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;}
+    border-radius: 30%;
+  }
   
 .fa:hover {
     opacity: 0.7;}
