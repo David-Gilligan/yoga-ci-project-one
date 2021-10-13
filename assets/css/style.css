@@ -22,9 +22,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
+/* Text Alignment */
 .text-left {
     text-align: left;
 }
@@ -38,50 +40,151 @@ h2 {
 }
 
 /*Navigation & Header Styling*/
-
-.nav-background {
-    background-color: #4E5454;
-}
-
 #logo {
+    font-size: 300%;
+    letter-spacing: 2px;
     float: left;
-    font-size: 280%;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+#nav {
+    text-align: right;
+    background-color: #404242
+  }
+
+#logo #nav {
+    line-height: 75px;
 }
 
-/*.topnav {
-    display:inline;
-    position: relative;
+#nav ul {
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+#nav ul li {
+    float: right;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    color: #C7C1B5;
+  }
+
+#nav ul li a {
+    text-decoration: none;
+    color: #C7C1B5;
+    font-weight: 800;
+    font-size: 13pt;
+  }
+
+#nav a:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+#header-image-outer {
+    height: 600px;
+    width: 100%;
     overflow: hidden;
-    background-color: #4E5454;
+    position: relative;
 }
 
-.page-header {
-	height: 15vh;
-	background: center 75% / cover no-repeat;}
+#cover-text {
+    font-size: 130%;
+    font-family: 'Archivo-Narrow', sans-serif;
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    opacity: .7;
+    bottom: 30px
+    left: 150px;
 
-.vertical-center {
-    position: relative;
-    top: 30%;}
+    position: absolute;
+}
 
-ul {list-style-type: none;}*/
+.underline {
+    position : relative;
+    display : inline-block;
+  }
+
+.underline::after {
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 3px;
+    bottom: 0;
+    left: 0;
+    transform : scaleX(0);
+    transform-origin: bottom right;
+    transition : transform 0.25s linear;
+  }
+
+.underline:hover::after {
+    transform-origin: bottom left;
+      transform: scaleX(1);
+  }
 
 /*About Us Styling*/
 .about-background {
     background-color: #737373;
-    background-size: 800px;
+    height: 225px;
+    width: 100%;
 }
 
 /*Importance of Body & Mind Self Improvement Styling*/
-.importance-background {background-color: #C7C1B5;}
+.importance-background {
+    background-color: #C7C1B5;
+    height: 225px;
+    width: 100%;
+}
 
 /*Yoga Types Styling*/
-.yoga-background {background-color: #E3DFD4;}
+.yoga-background {
+    background-color: #E3DFD4;
+    height: 600px;
+    width: 100%;
+}
+
+#yoga-types {
+    height: 600px;
+}
+
+#yoga-type-left {
+    padding-top: 30px;
+    height: 400px;
+    width: 33%;
+    float: left;
+    background-color:#C0D4C9;
+}
+
+#yoga-type-right {
+    padding-top: 30px;
+    height: 400px;
+    width: 33%;
+    float: right;
+    background-color:#C0D4C9;
+}
+
+#center-image {
+    width: 33%;
+    margin: 0 auto;
+    background-color:#C0D4C9;
+}
 
 /*Additional Information/Contact Us Styling*/
-.form-background {background-color:#ADC5B7;}
+.form-background {
+    background-color: #C0D4C9;
+    height: 225px;
+    width: 100%;
+}
 
 /*Footer Styling*/
-.footer-background {background-color: #C0D4C9;}
+.footer-background {
+    background-color: #ADC5B7;
+    height: 75px;
+    width: 100%;
+}
 
 .fa {
     padding: 10px;
@@ -90,6 +193,7 @@ ul {list-style-type: none;}*/
     text-align: center;
     text-decoration: none;
     border-radius: 30%;
+    margin-top: 12px;
   }
   
 .fa:hover {
@@ -106,3 +210,14 @@ ul {list-style-type: none;}*/
 .fa-youtube {
     background: #bb0000;
     color: white;}
+
+/* Images 
+
+#yoga-3 {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/yoga3.jpg') no-repeat center center;
+}
+*/
+
+/* Animation*/
