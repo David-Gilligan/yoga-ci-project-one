@@ -1,3 +1,7 @@
+html {overflow-x: hidden}
+
+body {overflow-x: hidden}
+
 /*Font Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Roboto&display=swap');
 
@@ -211,13 +215,12 @@ h2 {
     background: #bb0000;
     color: white;}
 
-/* Images 
+/* Images */
 
 #yoga-3 {
     height: 600px;
     width: 100%;
-    background-image: url('../images/yoga3.jpg') no-repeat center center;
+    background: url('../images/yoga3.jpg') no-repeat center center;
 }
-*/
 
 /* Animation*/
