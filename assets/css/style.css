@@ -103,12 +103,13 @@ h2 {
 
     padding: 10px;
     
-    background-color: rgba(199, 137, 136, 0.7);
+    color: #C7C1B5;
 
-    bottom: 30px;
-    left: 50px;
+    bottom: 25px;
+    left: 550px;
 
     position: absolute;
+    opacity: 0.9
 }
 
 .underline {
@@ -142,7 +143,7 @@ h2 {
 
 /*Importance of Body & Mind Self Improvement Styling*/
 .importance-background {
-    background-color: #C7C1B5;
+    background-color: #737373;
     height: 225px;
     width: 100%;
 }
@@ -156,30 +157,29 @@ h2 {
 /*Yoga Types Styling*/
 .yoga-background {
 	padding: 1rem 0;
-	margin-bottom: 80px;
 	background: url('../images/yoga1.jpg') center center / cover no-repeat fixed;
 }
 
 #yoga-types {
-    height: 600px;
+    height: 450px;
 }
 
 #yoga-type-left {
     padding-top: 30px;
-    height: 400px;
-    width: 33%;
+    height: 300px;
+    width: 25%;
     float: left;
-    background-color:#C0D4C9;
     margin-left: 30px;
+    opacity: 0.7;
 }
 
 #yoga-type-right {
     padding-top: 30px;
-    height: 400px;
-    width: 33%;
+    height: 300px;
+    width: 25%;
     float: right;
-    background-color:#C0D4C9;
     margin-right: 30px;
+    opacity: 0.7;
 }
 
 #center-image {
@@ -228,15 +228,15 @@ h2 {
 
 /*Additional Information/Contact Us Styling*/
 .form-background {
-    background-color: #ADC5B7;
+    background-color: #737373;
     height: 225px;
     width: 100%;
 }
 
 /*Footer Styling*/
 .footer-background {
-    background-color: #ADC5B7;
-    height: 75px;
+    background-color: #737373;
+    height: 100px;
     width: 100%;
 }
 
