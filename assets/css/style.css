@@ -1,12 +1,12 @@
-html {overflow-x: hidden}
-
-body {overflow-x: hidden}
-
 /*Font Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Roboto&display=swap');
 
 /*Social Media Icon Imports*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {overflow-x: hidden}
+
+body {overflow-x: hidden}
 
 /*General Styling*/
 * {
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     text-transform: capitalize;
 }
 
@@ -86,23 +86,27 @@ h2 {
 }
 
 #header-image-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
+
     position: relative;
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: 'Archivo-Narrow', sans-serif;
-    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+
+    width: 200px;
     height: 100px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: whitesmoke;
-    opacity: .7;
-    bottom: 30px
-    left: 150px;
+
+    padding: 10px;
+    
+    background-color: rgba(199, 137, 136, 0.7);
+
+    bottom: 30px;
+    left: 50px;
 
     position: absolute;
 }
@@ -143,11 +147,17 @@ h2 {
     width: 100%;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
 /*Yoga Types Styling*/
 .yoga-background {
-    background-color: #E3DFD4;
-    height: 600px;
-    width: 100%;
+	padding: 1rem 0;
+	margin-bottom: 80px;
+	background: url('../images/yoga1.jpg') center center / cover no-repeat fixed;
 }
 
 #yoga-types {
@@ -160,6 +170,7 @@ h2 {
     width: 33%;
     float: left;
     background-color:#C0D4C9;
+    margin-left: 30px;
 }
 
 #yoga-type-right {
@@ -168,17 +179,56 @@ h2 {
     width: 33%;
     float: right;
     background-color:#C0D4C9;
+    margin-right: 30px;
 }
 
 #center-image {
     width: 33%;
     margin: 0 auto;
-    background-color:#C0D4C9;
+}
+
+.left-yoga-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-yoga-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-yoga-heading h2 {
+    text-align: right;
+}
+
+.right-yoga-heading p {
+    text-align: right;
+}
+
+#yoga {
+    font-size: 200%
+}
+
+/*#square-container {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #bb0000;
+    border-width: 5px;
+    margin: 0 auto;
+    border-radius: 30%;
 }
 
 /*Additional Information/Contact Us Styling*/
 .form-background {
-    background-color: #C0D4C9;
+    background-color: #ADC5B7;
     height: 225px;
     width: 100%;
 }
@@ -218,9 +268,15 @@ h2 {
 /* Images */
 
 #yoga-3 {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url('../images/yoga3.jpg') no-repeat center center;
+}
+
+/*#square-cover-bg {
+    height: 100%;
+    background: url('../images/yoga5.jpg');
+    border-radius: 30%;
 }
 
 /* Animation*/
