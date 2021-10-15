@@ -31,6 +31,10 @@ h2 {
     text-transform: capitalize;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Text Alignment */
 .text-left {
     text-align: left;
@@ -80,7 +84,7 @@ h2 {
     text-decoration: none;
     color: #C7C1B5;
     font-weight: 800;
-    font-size: 13pt;
+    font-size: 14pt;
   }
 
 #nav a:hover {
@@ -136,37 +140,80 @@ h2 {
   }
 
 /*About Us Styling*/
-.about-background {
+
+#who-we-are {
+    height: 600px;
+}
+
+/*.about-background {
     background-color: #737373;
     height: 450px;
     width: 100%;
-}
+}*/
 
-.column-left {
-    float: left; 
-    width: 33%; 
-}
-
-.column-right {
-    float: right;
-    width: 33%; 
-}
-
-.column-center {
-    display: inline-block; 
+.why-left {
+    padding-top: 30px;
     width: 33%;
+    float: left;
 }
 
-.row:after {
-    content: "";
-    display: table;
+.how-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#who-we-are-center {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+.why-left-heading {
+    width: 33%;
+    float: right;
+    line-height: 20px;
     clear: both;
+    margin-bottom: 50px;
+}
+
+.how-right-heading {
+    width: 33%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.how-right-heading h2 {
+    text-align: right;
+}
+
+.how-right-heading p {
+    text-align: right;
+}
+
+.who-we-are-heading {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 /*Yoga Types Styling*/
 .yoga-background {
 	padding: 1rem 0;
 	background: url('../images/yoga1.jpg') center center / cover no-repeat fixed;
+    opacity: 0.8;
 }
 
 #yoga-types {
@@ -233,16 +280,16 @@ hr {
 .fa {
     padding: 10px;
     font-size: 30px;
-    width: 50px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
-    border-radius: 30%;
+    border-radius: 25%;
     margin-top: 12px;
     margin-bottom: 12px;
   }
   
 .fa:hover {
-    opacity: 0.7;}
+    opacity: 0.6;}
   
 .fa-facebook {
     background: #3B5998;
