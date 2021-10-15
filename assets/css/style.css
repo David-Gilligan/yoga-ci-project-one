@@ -168,7 +168,7 @@ h2 {
 }
 
 #who-we-are-center {
-    width: 33%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -179,20 +179,19 @@ h2 {
 }
 
 .why-left-heading {
-    width: 25%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    padding-top: 175px;
-    margin-left: 30px;
+    width: 375px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
 }
 
 .how-right-heading {
-    width: 25%;
-    float: right;
-    line-height: 20px;
-    padding-top: 350px;
-    margin-right: 30px;
+    width: 375px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
 }
 
 .who-we-are-heading {
