@@ -170,8 +170,7 @@ h2 {
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+    margin: 30px 0;
 }
 
 .why-left-heading {
@@ -180,6 +179,7 @@ h2 {
     line-height: 20px;
     clear: both;
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .how-right-heading {
@@ -188,6 +188,7 @@ h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    margin-right: 30px;
 }
 
 .how-right-heading h2 {
@@ -212,7 +213,7 @@ h2 {
     opacity: 0.8;
 }
 
-#yoga-types {
+#yoga-styles {
     height: 450px;
 }
 
@@ -264,6 +265,11 @@ hr {
     background-color: #737373;
     height: 450px;
     width: 100%;
+}
+
+#contact {
+    text-align: center;
+    margin: 30px 0;
 }
 
 /*Footer Styling*/
