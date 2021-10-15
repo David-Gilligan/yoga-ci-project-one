@@ -153,14 +153,16 @@ h2 {
 
 .why-left {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: left;
+    padding-top: 100px;
 }
 
 .how-right {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: right;
+    padding-bottom: 50px;
 }
 
 #who-we-are-center {
@@ -269,8 +271,8 @@ hr {
 
 #contact {
     text-align: center;
-    margin: 30px 0;
-}
+    padding-top: 30px;
+} 
 
 /*Footer Styling*/
 .footer-background {
