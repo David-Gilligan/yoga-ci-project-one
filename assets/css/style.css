@@ -48,6 +48,10 @@ h2 {
     text-align: right;
 }
 
+.justify {
+    text-align: justify;
+}
+
 /*Navigation & Header Styling*/
 #logo {
     font-size: 300%;
@@ -102,10 +106,12 @@ h2 {
 
 #cover-text {
     font-size: 150%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
     letter-spacing: 2px;
+    color: #7e776a;
 
-    width: 150px;
+    width: 225px;
     height: 100px;
 
     padding: 5px;
@@ -155,14 +161,12 @@ h2 {
     padding-top: 30px;
     width: 25%;
     float: left;
-    padding-top: 100px;
 }
 
 .how-right {
     padding-top: 30px;
     width: 25%;
     float: right;
-    padding-bottom: 50px;
 }
 
 #who-we-are-center {
