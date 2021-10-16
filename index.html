@@ -22,7 +22,7 @@
         <div id="nav">
             <ul class="underline">
                 <li>
-                    <a href="#contact">Techniques</a>
+                    <a href="#contact">e-Booklet</a>
                 </li>
                 <li>
                     <a href="#yoga-styles">Styles</a>
@@ -98,64 +98,77 @@
         </div>
     </section>
     <!--Form-->
-    <section id="contact" class="form-background">
-        <h2>Additional Information/Contact Us</h2>
+    <section id="request" class="form-background">
+        <div class="request-heading">
+        <h2 class="text-center">Request e-Booklet</h2>
         <p>If you wish to become a member of the Youga community, please complete the form below and we will send you your first personalised yoga training e-booklet (including step by step technique images and videos). </p>
+        </div>
     <form action="https://formdump.codeinstitute.net" method="POST">
         <fieldset>
-            <legend>Your Details</legend>
-            <div class="float-left">
-                <label for="name-field" class="block-label">Full Name</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Your full name" required>
+            <div>
+                <label for="name-field">Full Name:</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your Full Name" required>
             </div>
-            <div class="float-left">
-                <label for="email-field" class="block-label">Email</label>
-                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            <br>
+            <div>
+                <label for="email-field">Email:</label>
+                <input id="email-field" type="email" name="email" placeholder="Your Email Address" required>
             </div>
+            <br>
+            <div>
+            <label for="age" class="block-label">Age Group:</label>
+            <select id="age" name="age" required>
+                <option value="">4-10</option>
+                 <option value="10s">10-19</option>
+                <option value="20s">20-29</option>
+                <option value="30s">30-39</option>
+                <option value="40s">40-49</option>
+                <option value="50s">50-59</option>
+                <option value="60+">60+</option>
+            </select>
+            </div>
+            <br>
+            <div>
+            <p>What is your yoga skill-level?</p>
 
-            <label for="age" class="block-label">Age</label>
-		<select id="age" name="age" required>
-			<option value="">4-10</option>
-            <option value="10s">10-19</option>
-			<option value="20s">20-29</option>
-			<option value="30s">30-39</option>
-			<option value="40s">40-49</option>
-			<option value="50s">50-59</option>
-			<option value="60+">60+</option>
-		</select>
+            <input id="beginner-radio" name="skill-level" value="beginner" type="radio" required>
+            <label for="beginner-radio">Beginner</label>
 
-        <p>What is your yoga skill-level?</p>
+            <input id="intermediate-radio" name="skill-level" value="intermediate" type="radio" required>
+            <label for="intermediate-radio">Intermediate</label>
 
-			<input id="beginner-radio" name="skill-level" value="beginner" type="radio" required>
-			<label for="beginner-radio">Beginner</label>
-
-			<input id="intermediate-radio" name="skill-level" value="intermediate" type="radio" required>
-			<label for="intermediate-radio">Intermediate</label>
-
-			<input id="advanced-radio" name="skill-level" value="advanced" type="radio" required>
-			<label for="advanced-radio">Advanced</label>
-        
-            <p>Please select the yoga style(s) you wish to practice</p>
-			<div>
-				<input type="checkbox" id="karma-checkbox" name="karma">
-				<label for="karma-checkbox">Karma (Active Aspect)</label>
-			</div>
-			<div>
-				<input type="checkbox" id="bhakti-checkbox" name="bhakti">
-				<label for="bhakti-checkbox">Bhakti (Emotional Aspect)</label>
-			</div>
-			<div>
-				<input type="checkbox" id="raja-checkbox" name="raja">
-				<label for="raja-checkbox">Rāja (Mystical Aspect)</label>
-			</div>
-			<div>
-				<input type="checkbox" id="jnana-checkbox" name="jnana">
-				<label for="jnana-checkbox">Jñāna (Intellectual)</label>
-			</div>
-
+            <input id="advanced-radio" name="skill-level" value="advanced" type="radio" required>
+            <label for="advanced-radio">Advanced</label>
+            </div>
+            <br>
+            <div>
+            <p>Please select the yoga style(s) you wish to practice:</p>
+            <div>
+                <input type="checkbox" id="karma-checkbox" name="karma">
+                <label for="karma-checkbox">Karma (Active)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="bhakti-checkbox" name="bhakti">
+                <label for="bhakti-checkbox">Bhakti (Emotional)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="raja-checkbox" name="raja">
+                <label for="raja-checkbox">Rāja (Mystical)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="jnana-checkbox" name="jnana">
+                <label for="jnana-checkbox">Jñāna (Intellectual)</label>
+            </div>
+            </div>
+            <br>
+            <div>
+            <label for="feedback">Please let us know if you have any further questions</label>
+        <textarea id='feedback' cols="35" rows="2" name="feedback" placeholder=""></textarea>
+            </div>
+            <br>
             <input type="submit" class="block-label" value="Join!">
-		    <input type="reset" value="Cancel">
-		</fieldset>
+            <input type="reset" value="Cancel">
+        </fieldset>
     </form>
     </section>
     <!--Footer-->
