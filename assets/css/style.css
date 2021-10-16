@@ -223,10 +223,11 @@ hr {
 
 /*Request Styling*/
 .form-background {
-    background-color: #737373;
+    background-color: (211,211,211);
     height: 650px;
     width: 100%;
     padding-top: 125px;
+    opacity: 0.9;
 }
 
 #request {
