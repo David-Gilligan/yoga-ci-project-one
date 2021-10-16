@@ -39,7 +39,15 @@ All encountered issues were checked and corrected through a trial and error proc
 At present there does not appear to be any unfixed bugs however there are several features that should be implemented going forward which are;
 
 ### Deployment
+The project is being deployed publicly using the GitHub web development service.
+
+Live project link:
+https://david-gilligan.github.io/yoga-ci-project-one/
 
 ### Credits
+
+Pexel Images:
+Yoga1.jpg https://www.pexels.com/photo/silhouette-of-man-at-daytime-1051838/ 
+Yoga2.jpg https://www.pexels.com/photo/photo-of-woman-doing-yoga-2294353/
 
 
