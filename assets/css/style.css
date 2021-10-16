@@ -223,7 +223,7 @@ hr {
 
 /*Request Styling*/
 .form-background {
-    background-color: (211,211,211);
+    background-color: #737373;
     height: 650px;
     width: 100%;
     padding-top: 125px;
@@ -252,8 +252,8 @@ form {
     padding-top: 15px;
     border-radius: 8px;
     margin: 10px auto;
-    border: 1px solid #000000;
-    background-color: #C7C1B5;
+    border: 2px solid #000000;
+    background-color: (211,211,211);
     text-align: left;
 }
 
