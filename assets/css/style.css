@@ -235,12 +235,12 @@ hr {
     padding-top: 20px;
 } 
 
-#request p {
+#text-column-center-2 {
     width: 100%;
-    text-align: justify;
+    margin: 0 auto;
 }
 
-.request-heading {
+.text-column-heading-2 {
     width: 450px;
     height: 100px;
     margin: 0 auto;
