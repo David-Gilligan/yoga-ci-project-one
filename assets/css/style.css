@@ -32,7 +32,7 @@ h2 {
 }
 
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 /* Text Alignment */
@@ -157,14 +157,9 @@ h2 {
     width: 100%;
 }
 
-br {
-    size:25px;
-}
-
 #text-column-center {
     width: 100%;
     margin: 0 auto;
-    padding: 5px;
 }
 
 #welcome {
@@ -177,13 +172,13 @@ br {
     width: 450px;
     height: 100px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 /*Yoga Types Styling*/
 .yoga-background {
-	padding: 1rem 0;
-	background: url('../images/yoga1.jpg') center center / cover no-repeat fixed;
+    padding: 1rem 0;
+    background: url('../images/yoga1.jpg') center center / cover no-repeat fixed;
     opacity: 0.8;
 }
 
@@ -229,71 +224,66 @@ hr {
 /*Request Styling*/
 .form-background {
     background-color: #737373;
-    height: 450px;
+    height: 650px;
     width: 100%;
+    padding-top: 125px;
 }
 
-#contact {
+#request {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 } 
 
+#request p {
+    width: 100%;
+    text-align: justify;
+}
+
+.request-heading {
+    width: 450px;
+    height: 100px;
+    margin: 0 auto;
+}
+
 form {
-	width: 33%;
-	padding: 10px;
-	border-radius: 8px;
-	margin: 10px auto;
-	background-color: white;
+    height:500px;
+    width: 450px;
+    padding-top: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    background-color: #C7C1B5;
+    text-align: left;
 }
 
 fieldset {
-	border: none;
-	margin-top: 20px;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 5px 0 10px 0;
+    border: none;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 input[type=submit] {
-	margin-top: 15px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: green;
-	color: white;
-	border: 1px solid #000000;
-	border-radius: 10px;
+    margin-left: 0.75rem;
+    padding: 1rem;
+    background-color: green;
+    color: white;
+    border: 1px solid #000000;
 }
 
 input[type=reset] {
-
-	margin-top: 15px;
     margin-left: 0.75rem;
-    padding: 0.75rem;
+    padding: 1rem;
     background-color: red;
     color: white;
     border: 1px solid #000000;
-    border-radius: 10px;
 }
-	
 
 input[type=text],
-input[type=email],{
+input[type=email] {
     height: 30px;
     width: 90%;
     padding-left: 5px;
 }
-
-/*.float-left {
-    float: left;
-}
-
-.block-label {
-	display: block;
-}*/
 
 /*Footer Styling*/
 .footer-background {
@@ -340,35 +330,28 @@ input[type=email],{
 
 /* Media Queries */
 
-/* For larger to medium screens size from 1200px wide and down 
-@media screen and (max-width: 1200px) {
-    #yoga-types {
-        width: 65%;
-        height: 900px;
-        margin: 0 auto;
+/*For medium to small screens size from 540px wide and down*/
+
+@media screen and (max-width: 540px){
+    
+body {
+        font-size: 13px;
     }
 
-    #yoga {
-        padding: 30px 0;
-        margin: 0;
+    #logo {
+        margin-left: 10px;
     }
 
-    #yoga-type-left, #yoga-type-right {
-        width: 100%;
-        float: left;
-        padding: 0;
+    #nav ul {
+        margin-right: 10px;
     }
 
-    hr {
-        display: none;
+    .text-column-heading {
+        width: 250px;
+    }
+
+    form {
+        height: 400px;
+        width: 310px;
     }
 }
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-*/
-
-
