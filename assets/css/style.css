@@ -231,7 +231,6 @@ hr {
 }
 
 #request {
-    text-align: center;
     padding-top: 20px;
 } 
 
@@ -267,14 +266,6 @@ input[type=submit] {
     margin-left: 0.75rem;
     padding: 1rem;
     background-color: green;
-    color: white;
-    border: 1px solid #000000;
-}
-
-input[type=reset] {
-    margin-left: 0.75rem;
-    padding: 1rem;
-    background-color: red;
     color: white;
     border: 1px solid #000000;
 }
@@ -357,6 +348,10 @@ body {
     
     #styles-right {
     width: 35%;
+    }
+    
+    .text-column-heading-2 {
+    width: 300px;
     }
 
     form {
